@@ -5,7 +5,7 @@ RUN apt-get clean
 RUN apt-get update
 
 #apt-get install -y libglib2.0-0 libx11-6 libxcursor1 libnss3 libxrandr2 libxinerama1 libxcomposite1 libasound2 libxtst6
-rm -rf /var/lib/apt/lists/*
+#rm -rf /var/lib/apt/lists/*
 
 # Configure a pasta de trabalho
 WORKDIR /app
